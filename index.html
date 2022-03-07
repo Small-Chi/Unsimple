@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <style>
+    .navbar {
+      opacity: 1;
+    }
+
+    .logo {
+      width: 130px;
+      position: relative;
+      top: -2px;
+    }
+
+    @media (min-width: 576px) {
+      .navbar {
+        opacity: 0.8;
+      }
+
+      h4 {
+        font-size: 2.5rem;
+      }
+
+      .p-big {
+        font-size: 1.3rem;
+      }
+    }
+
+    .container-fluid-rest {
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    .card-footer-reset {
+      padding: 0.5rem 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="./image/logo.png" class="logo me-2">布簡單</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#chi_navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="chi_navbar" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active " href="#chi_carousel">最新消息</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section02">皮件商品</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section03">品牌特色</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section04">店鋪位置</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section05">聯絡我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="chi_carousel" class="carousel slide mb-2" data-bs-ride="carousel" data-bs-touch="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#chi_carousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#chi_carousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#chi_carousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./image/shutterstock_539735062.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>傳承三世代的老字號皮革廠，在這一代為傳統工藝開啟了新篇章</h5>
+          <p>承襲著老字號製皮廠的經驗，工作室擁有最多樣，品質最好的皮革，成了工作室最穩固的基石。</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/shutterstock_1023823000.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>來自於愛的源頭，將這一份溫暖傳承下去</h5>
+          <p>我們提供一系列手縫皮革小物課程，讓想嘗試手作皮件但沒有經驗和工具的人一個入門體驗。</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/shutterstock_1237658695.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>獨特、永恆、自然、溫暖</h5>
+          <p>用一張承載記憶的優良皮革，給予每位想嘗試皮革手作的朋友一個簡單趣味又獨特的新體驗。</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#chi_carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#chi_carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container-fluid p-md-5" id="section02">
+    <div class="row p-md-5">
+      <div class="col-12 col-md-4 mx-auto my-2">
+        <div class="card">
+          <img src="./image/shutterstock_2017052954.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">TRAVELER'S COMPANY｜旅人皮革萬用手冊</h5>
+            <p class="card-text">
+            <ul>
+              <li>外層選用牛皮而成，質感純樸，觸感柔韌。</li>
+              <li>皮革會隨著時間推移而變化樣貌，因每個人的使用方式不同產生獨一無二的色澤和皮紋，使用越久就越能享受當中的趣味。</li>
+              <li>洗鍊設計融合高實用性，長期使用不退流行。</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mx-auto my-2">
+        <div class="card">
+          <img src="./image/shutterstock_515229880.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title p-big">MINI BIFOLD WALLET｜經典短夾</h5>
+            <p class="card-text">
+            <ul>
+              <li>簡潔的方式帶上卡片與鈔票，輕薄皮夾讓你輕鬆放入口袋，貼身攜帶都自在無比。</li>
+              <li>極簡設計與精緻手工，搭配自然的義大利皮革，顯得細緻優雅。</li>
+              <li>內部隱藏口袋可收納私密證件，萬用口袋讓使用更加多元。</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mx-auto my-2">
+        <div class="card">
+          <img src="./image/shutterstock_1704956824.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title p-big">HIROLEATHERWORKS｜義大利植鞣皮帶</h5>
+            <p class="card-text">
+            <ul>
+              <li>嚴選義大利植鞣牛皮製作手工皮帶，與台灣老製革廠合作製成。</li>
+              <li>以工匠精湛的工藝獨特壓紋設計，創造出經典紳士風格。</li>
+              <li>以單層頭層牛皮腰帶，耐拉扯，耐用性極佳。</li>
+              <li>嚴選高品質 MIT 無鎳抗酸化金屬頭。</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid-rest pt-2 pt-md-0" style="background-color:rgb(229, 229, 229);" id="section03">
+    <div class="card border-0 mx-0">
+      <div class="row g-0" style="min-height:500px;">
+        <div class="col-md-6">
+          <img src="./image/shutterstock_674634271.jpg" class="img-fluid" style="height: 100%;">
+        </div>
+        <div class="col-md-6" style="background-color:rgb(229, 229, 229);">
+          <div class=" card-body text-center">
+            <h4 class="card-title mt-md-5" style="color: rgb(128, 128, 128);">Design</h4>
+            <p class="card-text p-3 p-big">
+              從製作工法的層面來看，
+              我們偏向奔放大膽的當代主義，
+              專注於研發具實驗性、爆發性的創新工法
+              作品的風格上，
+              深受品茶美學影響，
+              以簡約的視覺做為茶的低調淡雅，
+              以爆發性的創新工法作為可回甘的餘韻。
+              <br>
+              與台灣老製革廠合作，
+              以nubuck為基礎開發出 unsimple leather；
+              由於絨面皮革對於生產及製作上的門檻非常高，
+              我們成為全球第一間：以絨面皮革做為品牌主要視覺的品牌。
+
+
+            </p>
+            <div class="card-footer-reset">
+              <a href="#" class="btn btn-secondary p-2">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 mx-0">
+        <div class="row g-0" style="min-height:500px;">
+          <div class="col-md-6 order-md-1">
+            <img src="./image/shutterstock_1954581868.jpg" class="img-fluid" style="height: 100%;">
+          </div>
+          <div class="col-md-6" style="background-color:rgb(229, 229, 229);">
+            <div class=" card-body text-center">
+              <h4 class="card-title mt-md-5" style="color: rgb(128, 128, 128);">Material</h4>
+              <p class="card-text p-3 p-big">
+                材料的選擇上，
+                我們最看重的是否具有令人難忘的觸感，
+                再來就是色澤的低飽和度，
+                因此皮料我們以牛巴戈 (nubuck leather) 做為基底，
+                研發出具有挺度、短絨面觸感、低飽和度色澤的unismple leather，
+                皮件五金是使用市面上較罕見的霧面金，
+                拉鍊則僅使用YKK excella系列，
+                相較於其他頂級拉鍊品牌，
+                它具有不刮手的鏈齒，及更霧面的電鍍色澤。
+              </p>
+              <div class="card-footer-reset">
+                <a href="#" class="btn btn-secondary p-2">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ratio ratio-16x9" id="section04">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7087270400075!2d121.5584039153788!3d25.04395704404538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a920af3ccdff%3A0x1315225c4e8eebb3!2zdW5zaW1wbGXkuI3nsKHllq7llYbooYznmq7ku7Y!5e0!3m2!1szh-TW!2stw!4v1646660811882!5m2!1szh-TW!2stw"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+
+    <div class="container-fluid px-md-5" style="background-color:rgb(229, 229, 229);" id="section05">
+      <h1 class="text-center mt-5">聯絡我們</h1>
+      <h5 class="text-center text-md-start mb-1">布簡單工作室，傳承濃醇溫度的手作精神</h5>
+      <p class="text-center mt-0 text-md-start" style="font-size:13px;">任何服務問題或建議，歡迎您透過克服表單告知我們，謝謝！</p>
+      <!-- needs-validation 與 novalidate 是必須的 -->
+      <!-- 送出表單時會新增 .was-validated 進行驗證 -->
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-12 col-md-6">
+          <label for="validationCustom01" class="form-label">姓名</label>
+          <div class="input-group">
+            <!-- required 屬性欄位必須要輸入 -->
+            <input type="text" class="form-control" id="validationCustom01" value="" required>
+            <!-- .valid-feedback 表單內容有內容時要回饋的訊息-->
+            <div class="valid-feedback">
+              成功！
+            </div>
+            <!-- .invalid-feedback 表單內沒有有內容時要回饋的訊息-->
+            <div class="invalid-feedback">
+              請輸入姓名
+            </div>
+            <span class="input-group-text" id="basic-addon2">
+              <label class="form-check-label" for="inlineRadio1">先生</label>
+              <input class="form-check-input me-2" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                value="option1">
+              <label class="form-check-label" for="inlineRadio2">女士</label>
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            </span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom02" class="form-label">電話</label>
+          <input type="text" class="form-control" id="validationCustom02" value="" required>
+          <div class="valid-feedback">
+            成功！
+          </div>
+          <div class="invalid-feedback">
+            請輸入電話
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">電子信箱</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="valid-feedback">
+            成功！
+          </div>
+          <div class="invalid-feedback">
+            請輸入電子信箱
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom04" class="form-label">問題類型</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">課程資訊</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            請選擇問題類型
+          </div>
+        </div>
+        <div class="col-12">
+          <label for="validationCustom05" class="form-label">意見需求</label>
+          <input type="text" class="form-control" id="validationCustom05" required style="height: 150px;">
+          <div class="invalid-feedback">
+            請輸入意見
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              訂閱布簡單工作室最新資訊
+            </label>
+            <div class="invalid-feedback">
+              請選擇訂閱
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center mb-3 mb-md-5">
+          <button class="btn btn text-white" type="submit" style="background-color:gray;">送出</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-dark text-white">
+    <div class="row">
+      <div class="col-6 col-md-3 d-flex justify-content-md-center align-items-md-center">
+        <img src="./image/shutterstock_425839243.jpg" class="img-fluid rounded-circle mt-5 m-md-5">
+      </div>
+      <div class="col-6 col-md-3 mt-5">
+        <p class="fw-bolder mb-2">Addres</p>
+        <p class="m-0">4567 Street Name</p>
+        <p class="m-0">City,AA 99999</p>
+      </div>
+      <div class="col-6 col-md-3 mt-0 mt-md-5">
+        <p class="fw-bolder mb-2">links</p>
+        <p class="m-0">Website builder</p>
+        <p class="m-0">Download for Windows</p>
+        <p class="m-0">Download for Mac</p>
+      </div>
+      <div class="col-6 col-md-3 mt-0 mt-md-5">
+        <p class="fw-bolder mb-2">Contacts</p>
+        <p class="m-0">E-mail: support@mobirise.com</p>
+        <p class="m-0">Phone: +1 (0) 000 0000 001</p>
+        <p class="m-0">Fax: +1 000 0000 002</p>
+      </div>
+    </div>
+    <div class="footer text-center mt-4 pb-5 mt-md-0">
+      <p>&copy;Copyright 2022 Shaw chi Wu - 僅為切版練習，並不具商業用途。</p>
+    </div>
+  </div>
+
+
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script>
+    (function () {
+      'use strict'
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+  </script>
+</body>
+
+</html>
